@@ -1,5 +1,4 @@
 # steampowered_kringlelife2
-HOLY SHARTR
 
 -- Credit to Valve for the whole website itself.
 
