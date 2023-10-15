@@ -1,0 +1,118 @@
+@keyframes woo {
+    0%{
+        background: rgb(255, 0, 0);
+        filter: drop-shadow(1px 1px 5px rgb(255, 255, 255));
+    }
+    50%{
+        background: rgb(6, 255, 23);
+        filter: drop-shadow(1px 1px 20px rgb(21, 255, 0));
+    }
+    100%{
+        background: rgb(2, 78, 255);
+        filter: drop-shadow(1px 1px 5px rgb(0, 64, 255));
+    }
+}
+
+
+
+@keyframes woo2 {
+    0%{
+        transform: scale(100%,100%);
+    }
+    50%{
+        transform: scale(110%,110%);
+    }
+    100%{
+        transform: scale(100%,100%)
+    }
+}
+
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg)
+    }
+    50%{
+        transform: rotate(360deg)
+    }
+    100%{
+        transform: rotate(0deg)
+    }
+}
+
+@keyframes woo3 {
+    0%{
+        transform: rotate(10deg)
+    }
+    25%{
+        transform: rotate(0deg)
+    }
+    50%{
+        transform: rotate(-10deg)
+    }
+    75%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(10deg)
+    }
+}
+
+#yotubelol{
+    margin-top:4em;
+    position:relative;
+    left:5%;
+}
+
+.btn_fart{
+    height:2.4em;
+    font-size:medium;
+
+    animation: woo 0.3s linear infinite,woo2 0.9s cubic-bezier(.15,.93,.23,1.98) infinite;
+}
+.btn_farthover{
+    color:tomato;
+}
+#buytext{
+    margin-bottom:1em;
+}
+
+
+.game_header{
+    height:60%;
+    width:50%;
+    transform: translateX(45%);
+    transition: 1s;
+}
+
+.game_header:hover{
+    filter: drop-shadow(1px 1px 20px rgb(255, 255, 255));
+}
+
+.game_purchase_price{
+    animation:woo3 0.9s cubic-bezier(.15,.93,.23,1.98) infinite;
+}
+
+.resize {
+    width:100%;
+    height:100%;
+}
+
+.communitylink_achievement{
+    transition:0.5s;
+}
+.communitylink_points_shop_item{
+    transition:0.5s;
+}
+
+.communitylink_achievement:hover{
+    animation: spin 1s ease-in-out infinite;
+}
+
+.communitylink_points_shop_item:hover{
+    animation: spin 1s ease-in-out infinite;
+}
+
+.game_page_background{
+    background-size: 68%;
+}
